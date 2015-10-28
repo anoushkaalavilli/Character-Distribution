@@ -68,10 +68,10 @@ for i in range ((listnum[0][0]), 0, -1):
         if i==x[0]:
             emptylist.append(x)
     #print ("emptylist =", emptylist)
-    if (len(emptylist))>0: 
-        sortedemptylist= ((emptylist).sort())
+    if len(emptylist)>0: 
+        emptylist.sort()
         #print ("sortedemptylidt=", sortedemptylist)
-        for v in (sortedemptylist):
+        for v in emptylist:
             print (v[1])
         
         
