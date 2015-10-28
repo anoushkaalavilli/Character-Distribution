@@ -37,6 +37,8 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 text = input("Please enter a string of text (the bigger the better): ")
+strtext= (str(text))
+print ('''The distribution of characters in "''' + (strtext) + '''" is: ''')
 text1=text.lower()
 strtext= (str(text1))
 strtext = strtext.replace(",", "")
@@ -47,7 +49,6 @@ strtext = strtext.replace("-", "")
 strtext = strtext.replace(";", "")
 strtext = strtext.replace("'", "")
 strtext = strtext.replace('''"''', '''''')
-print ('''The distribution of characters in "''' + (strtext) + '''" is: ''')
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 listnum= []
 for i in (alphabet):
