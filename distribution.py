@@ -38,7 +38,7 @@ Notice about this example:
 """
 text = input("Please enter a string of text (the bigger the better): ")
 text1=text.lower()
-strtext= (str(text))
+strtext= (str(text1))
 strtext = strtext.replace(",", "")
 strtext = strtext.replace(".", "")
 strtext = strtext.replace("/", "")
